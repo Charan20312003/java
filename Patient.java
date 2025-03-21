@@ -1,14 +1,19 @@
-public class Patient {
-    String name;
-    Address refAddress;
+class Patient{
 
-    public Patient(String name, Address refAddress) {
-        this.name = name;
-        this.refAddress = refAddress;
-    }
+static int patientId ;
+static String patientName ;
+static char gender ='a'+'c';
 
-    public void displayPatientDetails() {
-        System.out.println("Patient Name: " + name);
-        refAddress.displayAddress();
-    }
+//method
+
+
+public static void main(String args[]){
+
+System.out.println("the patient name is"+patientName);
+System.out.println("patientId"+patientId);
+System.out.println("gender"+gender);
+
 }
+}
+
+ 

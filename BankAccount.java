@@ -1,4 +1,5 @@
 class BankAccount{
+//propaerty
  static double balance;
 public static void credit(double amount){
 System.out.println("credit started");
@@ -18,7 +19,7 @@ System.out.println("credit endeded");
 public static void debit(double amount)
 {
 System.out.println("debit started");
-if(amount<=balance&&amount>=0.0)
+if(amount<=balance)
 {
  balance = balance-amount;
 }

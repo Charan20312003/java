@@ -1,25 +1,18 @@
-class Watch {
-    static String brand = "Titan";
-    static int price = 5000;
-    static String type = "Analog";
+public class Watch {
+    public static void main(String[] args) {
+        int watchId = 404;
+        String watchBrand = "Fossil";
+        String watchColor = "Black";
+        String watchType = "Digital";
+        String watchShape = "Round";
+        boolean isWatchWaterProof = true;
 
-    public static void main(String args[]) {
-        System.out.println("Before Update:");
-        System.out.println("Brand: " + brand);
-        System.out.println("Price: " + price);
-        System.out.println("Type: " + type);
-
-        updateWatch();
-
-        System.out.println("\nAfter Update:");
-        System.out.println("Brand: " + brand);
-        System.out.println("Price: " + price);
-        System.out.println("Type: " + type);
-    }
-
-    public static void updateWatch() {
-        brand = "Rolex";
-        price = 500000;
-        type = "Smartwatch";
+        System.out.println("Watch Details:");
+        System.out.println("ID: " + watchId);
+        System.out.println("Brand: " + watchBrand);
+        System.out.println("Color: " + watchColor);
+        System.out.println("Type: " + watchType);
+        System.out.println("Shape: " + watchShape);
+        System.out.println("Waterproof: " + isWatchWaterProof);
     }
 }
